@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Windows7lanjutan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="11."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows711"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win711"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="12."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows712"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win71"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="13."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows713"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win713"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="14."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows714"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows714"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win714"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/nextlanjutakhir"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#FFCE56"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Next"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

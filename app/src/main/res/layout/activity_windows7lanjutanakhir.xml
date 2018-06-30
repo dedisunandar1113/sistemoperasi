@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Windows7lanjutanakhir">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="15."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows715"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win715"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="16."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows716"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows716"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win716"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="17."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows717"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows717"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win717"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="18."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows718"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows718"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/win718"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="19."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows719"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows719"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/win719"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="20."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/windows720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/windows720"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

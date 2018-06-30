@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InstalWindows">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SETTING BIOS"
+                android:gravity="center"
+                android:textColor="#0000FF"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="1."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/textno1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/textno1"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="2."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/textno2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/textno2"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/w2"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="3."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/textno3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/textno3"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/w3"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="4."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/textno4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/textno4"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/w4"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="5."
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/textno5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/textno5"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/w5"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/textno6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/textno6"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,330 @@
+<resources>
+    <string name="app_name">Sistem Operasi</string>
+    <string name="judul">SISTEM OPERASI</string>
+    <string name="textno1">Hidupkan komputer Anda, tekan tombol DEL untuk masuk ke menu BIOS, tetapi tidak semua komputer atau laptop memakai tombol yang sama. Tombol yang dapat Anda gunakan selain DEL adalah F1, F2, Fn + 2, coba salah satu dari tombol tersebut.</string>
+    <string name="no1">Microsoft Windows atau yang sering dikenal dengan Windowsadalah sistem operasi yang dikembangkan oleh Microsoft, yang menggunakan Graphical User Interface (GUI). Sistem operasi Windows sudah berevolusi dari MS-DOS, yaitu sebuah sistem operasi berbasis modus teks dan command-line.</string>
+    <string name="textno2">Tampilan menu BIOS seperti pada gambar dibawah ini. Biasanya menu BIOS di setiap komputer atau laptop juga berbeda. Selanjutnya silahkan Anda pindah ke tab Bootdengan memakai tombol ◄ ►.</string>
+    <string name="textno3">Seperti pada gambar dibawah ini, posisi HDD berada paling atas sendiri, hal tersebut menandakan booting pertama kali dilakukan dari HDD. Oleh karena itu, Anda harus mengubahnya supaya booting pertama kali melalui CD/DVD.</string>
+    <string name="textno4">Pilih CD-ROM Drive, lalu gunakan tombol + / – untuk memindahkan hingga berapa diposisi atas seperti gambar dibawah ini.</string>
+    <string name="textno5">Masukkan DVD installer windows ke dalam DVDROM komputer atau laptop Anda. Simpan konfigurasi dengan cara menekan tombol F10.</string>
+    <string name="textno6">Inilah cara menyeting bios sebelum kita mulai ke tahap penginstalan</string>
+
+    // windows 7
+    <string name="windows71">Pertama tekan sembarang tombol untuk memulai proses instalasi windows 7.</string>
+    <string name="windows72">Pilih Indonesian pada Time and currency format. Untuk Language to install dan Keyboard or input method biarkan saja default. Kemudian klik Next.</string>
+    <string name="windows73">Mulai proses instalasi windows 7, pilih Install Now.</string>
+    <string name="windows74">Ceklist I accepted the license terms, lalu klik Next.</string>
+    <string name="windows75">Kemudian pilih Custom (advanced).</string>
+    <string name="windows76">Jika anda ingin menginstall ulang, downgrade atapun upgrade sistem operasi windows sekaligus ingin data-data dipartisi lain tidak hilang, cukup delete Disk 0 Partition 2 (partisi C:) serta Disk 0 Partition 1 : System Reserved, maka otomatis kedua partisi ini akan menjadi Unallocated Space. Silakan buat partisi baru lagi, otomotis partisi tersebut akan menjadi Disk 0 Partition 2, dan jadikan Disk 0 Partition 2 sebagai lokasi instalasi windows 7, lalu klik Next.Bagi yang ingin melakukan install ulang, downgrade ataupun upgrade ke windows 7 sekaligus tidak ingin data-data dipartisi lain hilang, silakan lewati langkah pada nomor 7 sampai 10.
+                            Dan bagi yang pertama kali melakukan proses instalasi </string>
+    <string name="windows77">Langkah selanjutnya mempartisi ruang harddisk. Pilih Drive options (advanced) => New. Kemudian tentukan ukuran partisi tersebut. Klik Apply jika sudah selesai.</string>
+    <string name="windows78">Klik OK untuk pembuatan system files windows atau yang biasa disebut dengan system reserved partition.</string>
+    <string name="windows79">Buat 2 partisi dengan cara yang sama seperti pada langkah nomor 7. Berapa banyak partisi tergantung selera Anda. Tutorial kali ini hanya membuat 2 partisi saja.</string>
+    <string name="windows710">Pilih Disk 0 Partition 2 sebagai lokasi proses instalasi windows 7. Kemudian klik Next. Lokasi instalasi kami sarankan di Disk 0 Partition 2.</string>
+    <string name="windows711">Mulai proses instalasi windows 7. Proses ini akan memakan waktu kurang lebih 30 menit. Selama proses komputer atau laptop Anda akan restart dengan sendirinya berapa kali</string>
+    <string name="windows712">Jangan tekan tombol apapun pada keyboard ketika proses restart berlangsung. Hal tersebut akan menyebabkan komputer mengulangi proses instalasi dari awal.</string>
+    <string name="windows713">Langkah berikutnya yakni memasukkan Nama Pengguna dan juga Nama Komputer. Klik Next untuk melanjutkan.</string>
+    <string name="windows714">Buat password untuk akun Windows 7 Anda. Buatlah password yang kuat dengan kombinasi angka juga simbol. Pada password hint, isikan kata atau kalimat yang membantu Anda untuk mengingat password windows 7 Anda. Bila Anda tidak ingin menggunakan password,kosongkan saja Kemudian klik Next.</string>
+    <string name="windows715">Masukkan product key windows 7 lalu Next. Jika tidak memiliki product key windows 7 Anda dapat melewati langkah ini tanpa memasukkan product key yang diminta. Tetapi tanpa aktivasi product key, Anda hanya bisa menggunakan Windows 7 selama 30 hari.Selanjutnya klik Next. </string>
+    <string name="windows716">Pada Windows Update, pilih Ask me later. Anda dapat memilih Use recommended settings bila DVD windows 7 yang anda gunakan original. Tetapi jika tidak, pilih Ask me later</string>
+    <string name="windows717">Zona waktu / Time zone pilih (UTC+07:00) Bangkok, Hanoi, Jakarta.</string>
+    <string name="windows718">Langkah selanjutnya menentukan lokasi jaringan, pilih Public Network.</string>
+    <string name="windows719">Jika Anda menambahkan password untuk akun Anda, pada saat menghidupkan komputer Anda harus memasukkan password terlebih dahulu untuk dapat masuk ke desktop</string>
+    <string name="windows720">Selesai.</string>
+
+    //windows 8
+    <string name="windows8a">Untuk memulai instalasi Windows 8 / 8.1, tekan tombol sembarang.</string>
+    <string name="windows8b">Pilih Indonesian (Indonesia) pada menu Time and currency format. Untuk lainnya biarkan saja default, lihat gambar. Klik Next.</string>
+    <string name="windows8c">Tampilan mulai instalasi seperti gambar dibawah ini. Pilih tombol Install now untuk memulai instalasi windows.</string>
+    <string name="windows8d">Masukkan product key windows 8, biasanya product key terdapat satu paket dengan DVD. Lanjut tekan Next.</string>
+    <string name="windows8e">Ceklist I accept the licence terms, pilih tombol Next.</string>
+    <string name="windows8f">Pada berikut, pilih Custom: Install Windows only (advanced).</string>
+    <string name="windows8g">Bagi Anda yang akan melakukan install ulang, dimana komputer Anda pernah diinstall sistem operasi windows sebelumnya dan supaya data pada partisi lain tidak hilang Anda cukup delete Drive 0 Partition 2 (partisi C:) dan Drive 0 Partition 1 : System Reserved, lalu buat partisi baru lagi. Pilihlah Drive 0 Partition 2 sebagai lokasi instalasi windows, lalu klik Next.
+         Bagi yang ingin melakukan install ulang pada windows 8, lewati langkah nomor 8-12 dan bagi yang komputer atau laptop belum pernah diinstall sistem operasi sama sekali, silakan Anda lewati langkah nomor 7.
+                </string>
+    <string name="windows8h">Pada gambar dibawah ini, ruang harddisk masih kosong. Anda perlu mempartisi harddisk menjadi beberapa partisi, biasanya partisi harddisk dibagi mejadi tiga.</string>
+    <string name="windows8i">Untuk membuat partisi baru, pilih Drive options (advanced) => New, tentukan ukuran partisi sesuai dengan kebutuhan, lalu pilih tombol Apply. Jika harddisk Anda berukuran 320/500 GB, gunakan ukuran 100GB untuk partisi system.</string>
+    <string name="windows8j">Selanjutnya klik OK untuk pembuatan system reserved partition.</string>
+    <string name="windows8k">Buatlah partisi lagi sesuai selera. Untuk langkah-langkahnya sama persis pada langkah nomor 9.</string>
+    <string name="windows8l">Pilih Drive 0 Partition 2 (partisi C:) sebagai lokasi instalasi dari windows 8, kemudian pilih tombol Next.</string>
+    <string name="windows8m">Selanjutnya tahapan instalasi membutuhkan waktu kurang lebih 20 menit dan komputer akan restart beberapa kali selama proses ini berlangsung.</string>
+    <string name="windows8n">Setelah selesai proses sebalumnya, beri Nama pada PC kemudian pilih tombol Next. Dalam tahap ini juga mengatur warna tema sesuai selera.</string>
+    <string name="windows8o">Lanjut pilih tombol Use express setting.</string>
+    <string name="windows8p">Masukkan Nama Pengguna sekaligus Password bila dibutuhkan. Tanpa password juga tidak masalah. Untuk kolom Password hint, isikan kata atau kalimat yang memudahkan mengingat password asli. Selanjutnya klik Finish.</string>
+    <string name="windows8q">Tunggu beberapa saat hingga tampil dekstop windows 8 / 8.1. Dan proses instalasi windows 8/ 8.1 selesai.</string>
+
+    //windows 10
+    <string name="windows10a">Silakan tekan sembarang tombol untuk memulai instalasi windows.</string>
+    <string name="windows10b">Pilih Indonesian (Indonesia) pada pengaturan Time and currency format, untuk yang lainnya seperti Language to install dan Keyboard or input method biarkan saja default.</string>
+    <string name="windows10c">Lalu klik tombol Install now untuk memulai instalasi windows 10.</string>
+    <string name="windows10d">Kemudian ceklist I accept the license terms, kemudian klik tombol Next untuk melanjutkan proses. </string>
+    <string name="windows10e">Selanjutnya pilih Custom: Install Windows only (advanced).</string>
+    <string name="windows10f">Jika kalian ingin melakukan install ulang maupun upgrade / downgrade dari sistem operasi windows lama kalian ke windows 10, cukup dengan cara delete Drive 0 Partition 2 (partisi C:) serta Drive 0 Partition 1 : System Reserved, akan secara otomatis kedua partisi yang kalian hapus tersebut menjadi Unallocated Space.
+                       Selanjutnya buat partisi baru lagi dan jadikan Drive 0 Partition 2 sebagai lokasi instalasi, lalu klik tombol Next untuk melanjutkan ke proses berikutnya. Dengan begitu data dipartisi lain tidak terhapus.
+                      Bagi yang ingin install ulang, upgrade, atau downgrade dari sistem operasi windows lama kalian ke windows 10, maka silakan lewati langkah nomor 7-11. Dan jika HDD masih kosong atau yang belum pernah diinstall dengan sistem operasi windows sebelumnya, lewati pada langkah nomor </string>
+    <string name="windows10g">Seperti yang kalian lihat pada gambar berikut bahwa ruang HDD masih kosong yaitu Unallocated Space. Untuk itu kalian harus mempartisi terlebih dahulu. Untuk jumlah partisi sesuaikan dengan kebutuhan Anda</string>
+    <string name="windows10h">Silakan pilih Drive 0 Unallocated Space => New, lalu tentukan ukuran partisi tersebut, kemudian pilih tombol Apply. Ukurannya jangan terlalu banyak dan juga jangan terlalu sedikit juga. Misalkan pada ukuran HDD kalian 320GB/500GB, ukuran 100GB gunakan untuk partisi pada system.</string>
+    <string name="windows10i">Pilih tombol OK untuk pembuatan system reserved partition</string>
+    <string name="windows10j">Buat beberapa partisi lagi dengan cara yang sama seperti halnya pada langkah nomor 6, buat partisi sesuai dengan kebutuhan Anda</string>
+    <string name="windows10k">Pada tutorial kali ini membuat 2 partisi. Selanjutnya pilihlah Drive 0 Partition 2 untuk lokasi instalasi, lalu pilih Next</string>
+    <string name="windows10l">Proses instalasi sedang berlangsung. Proses memakan waktu kurang lebih 20 menit. Komputer kalian akan restart sendiri berulang kali, hal tersebut sebagian dari proses instalasi pada windows 10 ini</string>
+    <string name="windows10m">Masukkan product key windows 10, lalu klik Next. Jika belum memiliki product key, pilih Do this later. Kalian dapat mengaktivasi windows 10 setelah proses instalasi selesai</string>
+    <string name="windows10n">Kemudian pilih Use Express settings. </string>
+    <string name="windows10o">Masukkan nama komputer dan password supaya tidak sembarang orang bisa mengakses komputer Anda. Isikan kata atau kalimat yang bisa membantu Anda dalam mengingat password dikolom Password hint</string>
+    <string name="windows10p">Proses ini tidak memakan waktu lama, tunggu sebentar sampai kalian dibawa ke dekstop windows 10</string>
+    <string name="windows10q">Selesaii… instalasi Windows 10 berhasil. Berikut tampilan desktop pada windows 10</string>
+    <string name="windows10r">Proses penginstalan telah selesai,mudahan bermanfaat dan membantu Anda dalam proses instalasi windows.</string>
+
+    //linux
+    <string name="linux"> Linux adalah sebuah perangkat lunak yang berupa sistem operasi pada open source yang disebarluaskan secara gratis di bawah naungan lisensi GNU (Gnu Not Unix). Software ini merupakan turunan unix yang bekerja di berbagai jenis hardware komputer. Lisensi GNU memberikan program lengkap beserta sumber kodenya (source code).</string>
+    <string name="linux1">Pada gambar di bawah, Pilih “Install” untuk menginstal Debian dengan mode biasa (bukan mode grafis / GUI). Setelah memilih “Install” maka akan muncul tampilan seperti ini. </string>
+    <string name="linux2">. Pilih bahasa tampilan untuk proses instalasi Debian sesuai keinginan sobat, disini kami menggunakan bahasa inggris lalu tekan “Enter”.</string>
+    <string name="linux3">Setelah memilih bahasa, kemudian sobat di ajukan untuk memilih lokasi sesuai lokasi tempat  tinggal sobat. Jika tidak tercantum seperti gambar diatas, pilih “other”
+                     untuk mencari lokasi sobat. Kalau sudah ketemu lokasi yang benar, tekan “Enter” pada lokasi tersebut. (Lihat gambar dibawah)</string>
+    <string name="linux4">Selanjutnya akan menuju ke bagian ini, yaitu pemilihan output keyboard untuk Debian yang diinstal. Disini biasanya yang dipilih adalah output keyboard “American English”, karen seperti keyboard standar yang sering kita pakai. Maka pilihlah “American English” dan tekan “Enter” untuk memilih output keyboard Inggris-Amerika tersebut. (Lihat gambar dibawah)</string>
+    <string name="linux5">Setelah di Enter akan muncul tampilan seperti gambar dibawah ini, Jika muncul 2pilihan network adapter, pastikan sobat pilih yang “eth0” karena yang pasti dipakai dan yang pertama dikonfigurasi itu eth0. Tekan “Enter” pada pilihan eth0. (Lihat gambar dibawah)</string>
+    <string name="linux6">. Setelah itu akan muncul loading konfigurasi IP dan DHCP, tekan cancel sampai muncul tampilan seperti gambar dibawah.</string>
+    <string name="linux7">Jika sudah muncul tampilan “autoconfiguration failed” seperti gambar diatas tekanContinue. Kemudian jika muncul tampilan lain dan pilih “Do not configure the network at this time”.
+                     Kemudian akan muncul tampilan pengaturan user dan password, dan ikuti saja langkah-langkah ini sesuai keinginan sobat masing-masing seperti pilih, isi dan enter sesuai yang ada digambar dibawah. Isikan root password, full name, username, dan password non-root sesuai keinginan hati sobat.</string>
+    <string name="linux8">Masukan Nama Host Sobat </string>
+    <string name="linux9">Beri password sesuai keinginan sobat</string>
+    <string name="linux10">Masukkan  nama lengkap untuk user baru</string>
+    <string name="linux11">Masukkan kembali password yang sobat buat tadi</string>
+    <string name="linux12">Berikan Username untuk akun sobat pada debian server yang digunakan untuk login</string>
+    <string name="linux13">Berikan password untuk akun yang digunakan untuk login</string>
+    <string name="linux14">Masukkan ulang password yang sobat buat. Nah, Setelah langkah-langkah diatas selesai, maka kita akan berlanjut ke bagian disk partitioning. Supaya mudah, ikuti saja langkah langkahnya seperti gambar dibawah ini.</string>
+    <string name="linux15">Pilih Guided - use entrie disk</string>
+    <string name="linux16">Tekan Enter</string>
+    <string name="linux17">Pilih All Files In One Partition yang disarankan untuk user baru</string>
+    <string name="linux18">Pilih Finish Partition dan tekan Enter</string>
+    <string name="linux19">Pilih YES lalu Enter</string>
+    <string name="linux20">. Setelah selesai proses mem-partisikan, maka akan muncul tampilan loading “Formatting Partition”. Tunggulah sampai selesai dan akan muncul tampilan seperti dibawah ini</string>
+    <string name="linux21">Pada bagian ini, pilih “No” untuk melanjutkan proses instalasi tanpa melakukan proses scanning DVD yang lainnya. Untuk menyingkat waktu instalasi, pilihlah “No”. Setelah itu maka akan muncul tampilan seperti gambar dibawah ini. </string>
+    <string name="linux22">Untuk bagian yang satu ini, kita pilih “No” karena kita tidak menggunakan ‘Network Mirror’ saat instalasi Linux Debian ini. Dan kemudian, akan muncul seperti gambar dibawah ini. Pilih “No” saja karena untuk menyingkat waktu.</string>
+    <string name="linux23">Nah, Setelah itu, maka akan muncul tampilan untuk memilih aplikasi apa saja yang akan langsung di instal ketika instalasi Debian. Untuk membuat tampilan Debian dalam basis teks, maka pilihlah “Standard system utilities” seperti gambar dibawah supaya proses instalasi tidak berjalan terlalu lama.
+               </string>
+    <string name="linux24">. Jika sudah, maka akan muncul tampilan loading “Select and Install Software”. Kemudian akan muncul tampilan seperti ini, di bagian ini pilih saja “Yes” untuk menginstal “GRUB Boot Loader” karena itu adalah bagian penting dari Debian ini. GRUB Boot Loader digunakan untuk booting pada sistem operasi Linux Debian. (Lihat gambar dibawah)</string>
+    <string name="linux25">. Lalu tunggu loading instalasi GRUB Boot Loader sampai selesai. Kemudian akan ada perintah untuk mengambil DVD Debian yang digunakan saat instalasi. Ambil DVDnya lalu pilih “Continue” untuk melanjutkan ke finishing instalasi Debian. Setelah proses instalasi sistem operasi Linux Debian selesai, maka akan muncul sepert ini. (Lihat gambar dibawah)</string>
+    <string name="linux26">. Setelah muncul tampilan seperti tadi, kemudian PC akan me-reboot dengan sendirinya. Tunggu proses reboot selesai, dan proses instalasi sistem operasi Linux Debian selesai. Jika sudah selesai, tampilannya akan jadi seperti ini.</string>
+    <string name="linux27">Sistem Operasi Linux Debian 7 Wheezy Telah Terinstal Di Komputer sobat.</string>
+    <string name="title_activity_install_ubuntu">InstallUbuntu</string>
+
+    //linux ubuntu
+    <string name="ubuntuusb">Siapkanlah sebuah flashdisk yang akan dijadikan sebagai media dalam penginstalan. Untuk kapasitas flashdisknya minimal memakai 2GB. Selanjutnya kita akan membuat USB bootable flashdisk ubuntu 16.04. Jika anda belum bisa membuat bootable flasdisk, anda dapat ikuti langkah-langkahnya disini.</string>
+    <string name="ubuntuusb1">Langkah selanjutnya adalah merestart komputer dan kemudian masuk dipengaturan BIOS komputer. Untuk masuk kepengaturan BIOS ini biasanya akan diminta untuk menekan sebuah tombol, dan tombol yang ditekan ini biasanya berbeda-beda setiap vendor komputer ataupun laptop.
+               Untuk komputer biasanya menekan tombol DEL dan untuk laptop biasanya menekan tombol F2. Jangan panik dan juga jangan khawatir, karena akan ada petunjuknya disuruh menekan tombol apa untuk dapat masuk kepengaturan BIOS.</string>
+    <string name="ubuntu1">Setelah berhasil masuk kepengaturan BIOS, selanjutnya anda akan diarahkan pada menu BOOT. Aturlah posisi booting dengan menempatkan flashdisk berada dipaling atas, selanjutnya diikuti HDD, CD/DVD dan yang lainnya mengikuti saja. Intinya posisi dari flashdisk haruslah berada paling atas. Klik Save dan komputer atau laptop akan merestart otomatis.</string>
+    <string name="ubuntu2">Tunggulah proses loading penginstalan.</string>
+    <string name="ubuntu3">Selanjutnya pilih bahasa yang akan dipakai selama penginstalan nantinya. Disini kami memakai bahasa English (default) supaya lebih bisa dimengerti. Selanjutnya klik Install Ubuntu.</string>
+    <string name="ubuntu4">Centang dibagian “Install third-party software for graphics dan Wi-Fi hardware, Flash, MP3 and other media”. Setelah itu klik tombol Continue.</string>
+    <string name="ubuntu5">Berikan ceklis pada “Something else”. dan Selanjutnya klik tombol Continue.</string>
+    <string name="ubuntu6">Selanjutnya kita akan membuat partisi baru pada harddisk. Klik tombol New Partition Table.</string>
+    <string name="ubuntu7">Apabila ada tampilan seperti gambar di bawah ini, klik tombol Continue saja.</string>
+    <string name="ubuntu8">Kita memiliki harddisk dengan kapasitas 500 GB yang nantinya dibagi menjadi 2 partisi. Pada partisi pertama untuk tempat penyimpanan file-file system dan pada partisi yang kedua untuk menyimpan data-data pribadi. Untuk dapat membuat sebuah partisi klik tanda plus (+).</string>
+    <string name="ubuntu9">Tentukan kapasitas pada partisi ini (sesuaikan dengan keinginan). Lalu pilih “Primary”, kemudian pilih “Beginning of this space”. Di kotak Use as pilih “Swap area”. Bagi saya partisi swap area ini merupakan partisi yang sangat penting (wajib). Swap area ini merupakan sebuah partisi yang nantinya akan menjadi sebuah Memory Virtual dengan memakai harddisk sebagai medianya. Ukuran partisi swap area ini biasanya 2 (dua) kali lipat dari ukuran RAM pada komputer anda. Misalkan RAM kamputer anda ukuran 4GB, kalau anda ingin membuat Memori Virtual (SWAP) seperti ukuran RAM komputer anda, maka ukuran SWAP-nya akan menjadi 8GB. Lalu klik OK.</string>
+    <string name="ubuntu10">Maka hasilnya akan terlihat seperti digambar di bawah.</string>
+    <string name="ubuntu11">Selanjutnya kita akan membuat partisi kedua yakni sebagai tempat penyimpanan data-data pribadi. Klik di bagian Free space, lalu klik tombol tambah (+).</string>
+    <string name="ubuntu12">Akan muncul seperti tampilan pada gambar di bawah ini.
+              Pertama-tama tentukan ukuran yang akan dibuat pada partisi ini (sesuaikan dengan kebutuhan dan keinginan). Selanjutnya pilih “Logical”, pilih “Beginning of this space”.
+              Pada kotak Use as pilih “Ext4 journaling file system”.lalu pada kotat Mount point pilih /.Kemudian klik tombol OK.</string>
+    <string name="ubuntu13">Maka hasilnya akan terlihat seperti di gambar bawah. Kita sudah selesai membuat 2 (dua) buah partisi, yakni swap area dan /.
+              Pada klik pada bagian /dev/sda5 ext4 /, lalu klik tombol Install Now.</string>
+    <string name="ubuntu14">Klik tombol Continue.</string>
+    <string name="ubuntu15">Untuk zona waktu pilih (Jakarta, Indonesia), lalu klik tombol Continue.</string>
+    <string name="ubuntu16">Selanjutnya pilih bahasa inputan keyboard. Kami memakai English (US).</string>
+    <string name="ubuntu17">Selanjutnya anda akan disuruh untuk mengisikan data-data untuk user secara lengkap (lihat di gambar bawah). Isikan dengan data yang benar dan juga gampang diingat passwordnya. Setelah selesai klik tombol Continue.</string>
+    <string name="ubuntu18">Proses penginstalan dan juga penyalinan data sistem operasi dimulai. Tunggulah proses ini sampai selesai. Biasanya akan memakan waktu sekitar 10 sampai 30 menit.</string>
+    <string name="ubuntu19">Setelah proses penginstalan selesai, maka ada perintah seperti pada tampilan di bawah. Klik tombol Restart Now.</string>
+    <string name="ubuntu20">Setelah komputer direstart, selanjutnya isikanlah password sesuai dengan password yang sudah anda buat tadi.</string>
+    <string name="ubuntu21">Proses penginstalan pun sudah selesai. Di bawah ini merupakan Home Page dari sistem operasi ubuntu 16.04.</string>
+    <string name="ubuntu22">Selamat… Anda sudah selesai menginstal sistem operasi linux distro ubuntu.</string>
+
+    //mac os
+    <string name="macos1">Jika perangkat Mac dalam kondisi menyala, tancapkan flashdisk bootable mac tadi ke port USB kemudian restart Mac.</string>
+    <string name="macos2">Saat terdengan suara bootup yang menandakan Mac nyala, tekan tombol Command + R hingga muncul logo booting Apple dan tunggu sampai proses booting selesai.</string>
+    <string name="macos3">Setelah proses booting selesai, akan muncul menu OS X Utilities untuk memulai proses instalasi perangkat Mac.</string>
+    <string name="macos4">Pilih menu Disk Utility yang paling bawah untuk melakukan format ulang hardisk Mac. Pastikan anda format total hardisk sehingga yang cuma ada 1 (stau) partisi yang ada seperti gambar dibawaha. Jika anda tidak melakukannya format hardisk, anda tidak akan dapat memilih partisi hardisk nantinya.</string>
+    <string name="macos5">Tutup aplikasi Disk Utility kemudian pilih menu Install OS X untuk memulai proses install Mac.</string>
+    <string name="macos6">Untuk melanjutkan instalasi, tekan tombol Continue yang ada dibagian bawah logo OS X.</string>
+    <string name="macos7">Pilih tombol Agree untuk melanjutkan proses instalasi. Ini hanya license agreement dari Apple.</string>
+    <string name="macos8">Pilih partisi hardisk Mac yang tersedia dan silahkan tunggu hingga proses instalasi selesai.</string>
+    <string name="macos9">Selanjutnya, tekan tombol Install yang ada dibagian bawah partisi.</string>
+    <string name="macos10">Proses instalasi akan dimulai, clean install Mac ini akan menghapus semua data di partisi yang dipilih diatas tadi. Di jendela tersebut, anda dapat melihat estimasi waktu yang dibutuhkan untuk install Mac OS X.</string>
+    <string name="macos11">Waktu yang dibutuhkan untuk install Mac tergantung dari hardware yang anda gunakan. Anda yang menggunakan SSD, akan mendapati proses install Mac yang cepat dibandingkan yang hanya menggunakan HDD biasa.</string>
+    <string name="macos12">Setelah proses install mac os berhasil, perangkat Mac akan otomatis restart.</string>
+
+    //solaris
+    <string name="solaris">Untuk memulai instalasi, masukkan DVD-R ke dalam drive yang sudah ter-burning file ISO image dari hasil unduhan tadi. Kemudian jika ada fatal error, periksa kembali apakah opsi booting BIOSnya adalah DVD atau tidak. Jika yang dipilih adalah booting via DVD, maka akan tampil sebagai berikut:</string>
+    <string name="solaris1">Pilihan default instalasi adalah, pilih Solaris jika kita menginstal melalui jalur normal dengan monitor, tapi jika kita menginstal melalui serial port (atau via WAN) kita pilih ttya atau ttyb. Selanjutnya adalah ktia memilih tipe instalasi, berikut adalah tampilannya:</string>
+    <string name="solaris2">Saya menyarankan memilih Solaris Interactive (default) jika kita terbiasa dengan proses instalasi via GUI (Graphic User Interface), tapi jika mau coba hal baru, pilih instalasi via Solaris Interactive Text (Console Session), pilih opsi [ 4 ].</string>
+    <string name="solaris3">Selanjutnya adalah, kita akan menentukan bahasa yang akan digunakan selama selama proses instalasi. Jika mau coba-coba lagi, boleh ko memilih bahasa Itali.. </string>
+    <string name="solaris3.1">Selanjutnya adalah, kita akan mengidentifikasi network connectivity, atau dengan kata lain, jika kita mempunyai NIC atau network card yang terdeteksi solaris, opsi network connectivity akan muncul. Apakah komputer kita terkoneksi dengan jaringan komputer atau tidak. Dan untuk melanjutkan, silahkan tekan F2 kawan atau esc + 2.</string>
+    <string name="solaris4">Tahap Keempat – Identifikasi Sistem</string>
+    <string name="solaris5">Selanjutnya, kita akan memilih apakah network card yang kita gunakan memakian service DHCP atau tidak. Nah, perlu diingat kawan, penamaan device di solaris sedikit berbeda dengan di linux, di solaris nama inteface card hardware tersebut sesuaid dengan nama pabrikasi vendor hardware tersebut. </string>
+    <string name="solaris6">Disini, kita akan memilih DHCP (jika koneksi internet nyata di desktop kita di setting DHCP), karena defaultnya, apabila kita menginstal dalam virtual box, maka NIC yang terinstal nanti di solaris akan mengikuti NIC nyata di laptop kita.</string>
+    <string name="solaris7">Selanjutnya, tentukan apakah kita akan mengaktifkan IPv6 atau tidak, dalam hal ini saya memilih ‘yes’, karena kedepannya kita juga bisa uji coba penerapan IPv6 di OS solaris..</string>
+    <string name="solaris8">Kemudian, akan muncul konfirmasi inisialisasi sistem yang akan kita bangun, yaitu:</string>
+    <string name="solaris9">Selanjutnya, kita akan mengkonfigurasi keamanan sistem, apakah kita akan menerapkan sistem karberos atau tidak .</string>
+    <string name="solaris10">Selanjutnya, kita akan menerapkan salah satu service yang akan digunakan. Dalam hal ini, saya memilih ‘none’, karena nantinya bisa kita aktifkan kembali menggunakan terminal console.</string>
+    <string name="solaris11">Nah, jika sudah sampai disini, berarti kita sudah cukup paham mengenai core instalasi solaris, selebihnya akan sama seperti instalasi OS Windows maupun Linux, yaitu inisialisasi Time Zone, Country or Region, Date dan Time, bisa kita tentukan sesuai dengan domisili kita berada..
+                   Jika inisialisasi tersebut sudah kita terapkan, maka selanjutnya adalah menentukan password root yang akan kita gunakan untuk optimasi sistem nantinya. Perlu diperhatikan kawan, sebaiknya untuk melatih kita sebagai seorang administrator handal.. (halah lebay, tapi gapapa demi cita-cita.. :D) gunakan kombinasi password yang rumit, setidaknya kita harus terbiasa dengan kombinasi password tersebut</string>
+    <string name="solaris12">Selanjutnya, kita akan memilih untuk mengaktifkan remote service. Secara default, dalam OS Solaris, remote service seperti ftp, telnet, finger, akan otomatis diinstal apabila kita memilih opsi ‘yes’, namun untuk mencoba-coba mengaktifkannya melalui terminal nanti, sebaiknya pilih opsi ‘no’. Tampilannya adalah sebagai berikut:</string>
+    <string name="solaris13">Jika sudah sampai tahap ini, berarti kita akan masuk ke tahap instalasi OS Solaris dalam harddisk. Pilih opsi standar sebagai default instalasi OS Solaris ini, dan selanjutnya pilih eject DVD automatically. Berikut adalah tampilannya:</string>
+    <string name="solaris14">Tahap Ketigabelas – Opsi Instalasi</string>
+    <string name="solaris15">Selanjutnya, akan ada opsi Geographic Region dan Possible Character, pilih saja opsi defaultnya sesuai dengan domisili kita masing-masing, mudah kan..
+                 Selanjutnya, akan ada opsi pilihan untuk menginstal produk Sun, khususnya developper tools jika kita memiliki DVD tambahan, seperti Sun Studio 11, Sun Java Studio Creator 2 Update 1, Sun Java Studio Enterprise, dan NetBeans.</string>
+    <string name="solaris16">Selanjutnya, kita akan memilih diks untuk instalasi OS Solaris ini. Perlu diketahui kawan, penamaan disk pada solaris berbeda dengan linux.</string>
+    <string name="solaris17">Selanjutnya, kita akan mengatur layout yang akan menjadi sistem dari OS Solaris tersebut. Perlu diingat kawan setelah partisi fisik terbentuk, kita akan membagi-baginya lagi sesuai keperluan. Nah, suupaya bisa mempartisi secara optimal, anda perlu punya pengetahuan tentang folder2 di unix. misal: /, /etc, /usr, /tmp, dll.</string>
+    <string name="solaris18">Nah, karena kita memilih auto layout, maka tampilannya adalah sebagai berikut:</string>
+    <string name="solaris19">Jika kita hanya memilih opsi / (root) dan swap, maka selanjutnya akan diminta konfirmasi hingga tampilan sebagai berikut, yang merupakan representasi dari opsi yang telah kita pilih pada tampilan-tampilan sebelumnya.</string>
+    <string name="solaris20">Terakhir, tinggal nunggu hasil instalasinya kawan.. Sambil menunggu hasil instalasi, ada baiknya sambil belajar basic command pada terminal solaris, ya itung-itung berhadiah kawan.. </string>
+    <string name="solaris21">Tahap Keduapuluhsatu – Profile yang Telah Dibuat</string>
+    <string name="solaris22">Jika proses instalasi telah selesai, maka tampilan akhirnya akan diminta password root untuk inisialisasi awal. Untuk desktop environment ada pilihan  Java Desktop Environment dan CDE environment.</string>
+    <string name="solaris23">Contoh Halaman Login Solaris</string>
+    <string name="solaris24">Hasil Instalasi Solaris yang Telah Berhasil</string>
+    <string name="solaris25">Proses instalasi OS Solaris sebenarnya tidak sulit, hanya saja diperlukan konsentrasi untuk memahami setiap proses yang berjalan. Sehingga kita terhindar dari kesalahan fatal yang mungkin saja terjadi. Dan jika proses instalasi di Virtual Box ini berjalan mulus, maka tidak ada salahnya jika kita instal di desktop tersendiri.Proses instalasi OS Solaris sebenarnya tidak sulit, hanya saja diperlukan konsentrasi untuk memahami setiap proses yang berjalan. Sehingga kita terhindar dari kesalahan fatal yang mungkin saja terjadi. Dan jika proses instalasi di Virtual Box ini berjalan mulus, maka tidak ada salahnya jika kita instal di desktop tersendiri.</string>
+
+    //ios
+    <string name="ios1">Apple membuat iTunes tidak hanya sebagai sebuah aplikasi pemutar musik dan berbelanja di iTunes Store. Bila kamu menggunakan perangkat iOS, iTunes berguna untuk mengorganisir file pada iPhone. Antara lain melakukan backup, menambah dan menghapus lagu, video, foto, aplikasi, dan banyak hal lainnya.
+                  Sebetulnya langkah menginstall iTunes bisa kamu lakukan nanti, semisal kamu membeli iPhone di sebuah toko dan ingin segera mengaktfikannya, silahkan lewati langkah ini dan menuju poin kedua.</string>
+    <string name="ios2">Setelah membuka iPhone dari kardusnya lakukan aktifasi untuk mainan baru kamu tersebut. Masukkan sim card ke dalam iPhone. Posisi lubang kartu sim ada di sisi kanan bagian bezel, pergunakan kartu sim opening tool yang ada di dalam kardus. Perlu diingat bahwa generasi perangkat iOS terbaru sudah menggunakan Nano SIM.
+                  Lalu, nyalakan iPhone dan kamu akan menjumpai welcome screen. Tunggu beberapa saat hingga iPhone mengenali kartu sim yang kamu berikan lalu, lakukan slide ke kanan pada bagian yang bertuliskan slide to set up untuk mulai mengatur beberapa hal awal seperti:</string>
+    <string name="ios2.1">•	Pengaturan bahasa dan lokasi
+            •	Pilih jaringan wifi (kamu bisa memilih tidak tersedia jaringan)
+            •	Aktivasi location service
+            •	Set Up Your iPhone (pilih Set Up New iPhone bagi kamu yang belum pernah menggunakan iPhone atau tidak punya backup file dari iPhone sebelumnya di iTunes)
+            •	Login Apple ID (kamu bisa membuatnya di menu ini dengan memilih Create a Free Apple ID atau nanti saat menggunakan iTunes di komputer sehingga lebih mudah)
+            •	Aktivasi iCloud, Find My iPhone, set up Touch ID (untuk iPhone 5s) dan terakhir membuat passcode.
+            •	Aktivasi Siri, setelah itu kamu akan mendapat welcome screen bertulisan Welcome to iPhone dan Get Started pada bagian bawah yang bisa kamu tekan untuk masuk ke home screen.</string>
+    <string name="ios3">Setelah iPhone selesai diaktifasi di tempat membeli misalnya, kamu bisa membuat iTunes ID di komputer (MakeMac sudah pernah membuat artikel mengenai cara membuat Apple ID tanpa kartu kredit).
+                Selanjutnya, pergunakan akun tersebut untuk login di iPhone dari aplikasi Settings – iTunes dan App Store dan jangan lupa, sebelum melakukan hal tersebut, pastikan iPhone terkoneksi dengan internet. Lalu login di menu iCloud lewat Settings – iCloud menggunakan email yang sama dengan Apple ID kamu.</string>
+    <string name="ios4">Apple membuat perangkat iOS dan iTunes di komputer bagai tak terpisahkan. Pengaturan di iPhone seperti memasukkan aplikasi, lagu, video, file-file lain harus melalui iTunes. Backup atau membuat salinan konfigurasi yang kamu lakukan juga dilakukan menggunakan iTunes. Sama halnya dengan restore yaitu memformat ulang iPhone, kamu juga harus menggunakan software bergambar tangga nada tersebut.</string>
+    <string name="ios5">Cloud Service buatan Apple yang diberi nama iCloud ini sangat membantu kamu dalam sinkronisasi beberapa hal dari perangkat iOS kamu dengan komputer. Sebagai contoh kamu bisa menambahkan kontak teman-teman kamu di website iCloud melalui komputer dan secara otomatis, kontak itu akan muncul bersamaan di perangkatmu yang lain.
+                Aktifkan iCloud pada iPhone melalui aplikasi Settings – iCloud. Opsi yang dapat kamu aktifkan yaitu: Mail, Contatcs, Calendars, Reminders, Safarai, Notes, Passbook, Keychain, Photos, Document dan Data dan Find My iPhone.
+                </string>
+    <string name="ios6">Pengaturan berikutnya adalah mengamankan perangkat iOS kamu. Hal pertama yang biasa saya lakukan adalah mengaktifkan Find My iPhone dari menu iCloud. Fitur ini berguna apabila kamu kehilangan iPhone dan ingin melacaknya atau mengunci dari jarak jauh via remote.
+                Kedua, aktifkan passcode. Passcode adalah kombinasi angka yang harus kamu masukkan di lock screen agak tangan-tangan jahil tidak bisa mengakses iPhone milikmu. Aktifkan passcode dari aplikasi Settings – iCloud – Find My iPhone
+                Ketiga, aktifkan Restrictions. Fitur ini berfungsi untuk membatasi akses beberapa aplikasi bawaan Apple agar lebih aman. Sebagai contoh salah satu manfaat Restrictions adalah kamu bisa mematikan akses untuk menghapus aplikasi, menggunakan Facetime, menggunakan fitur In-App Purchaces. Aktifkan fitur ini dari aplikasi Settings – General – Restrictions. Saat awal kamu masuk akan ada tampilan untuk memasukkan password. Jangan bingung menginngat-ingat, ini adalah input password baru untuk mengatur Restrictions.
+                </string>
+    <string name="ios7">Pengaturan dasar sudah selesai. Sekarang saatnya kamu mempelajari dan menggunakan aplikasi bawaan. Coba pelajari Safari, Mail, App Store, Camera dan beberapa aplikasi bawaan kamu lainnya.</string>
+    <string name="ios8">Setelah kamu merasa cukup untuk mempelajari aplikasi bawaan dan mulai merasa butuh tambahan aplikasi, segera unduh di App Store. Kamu bisa mengunduh aplikasi untuk perangkat iOS dari iTunes Store pada perangkat komputer lalu melakukan sync. Cara lain adalah langsung di perangkat iOS menggunakan App Store.</string>
+
+    //android
+    <string name="android">Cara Terlengkap Menggunakan Android Device Manager</string>
+    <string name="android1">1. Apa Itu Android Device Manager?</string>
+    <string name="android1.1">Android Device Manager atau ADM adalah perangkat lunak bikinan Google, yang memungkinkan kamu dapat melacak smartphone Android yang hilang, menghapus data dari jarak jauh, melindungi ketika smartphone di factory reset paksa, dan bahkan dapat mengunci smartphone tersebut agar tak dapat digunakan oleh pencuri.</string>
+    <string name="android2">2. Cara Menyalakan Android Device Manager</string>
+    <string name="android2.1">Secara default, Android Device Manager pada ponsel terbaru sebenarnya sudah aktif. Namun untuk pilihan lebih lanjut, seperti menghapus data dari jarak jauh, haruslah kamu aktifkan sendiri. Kamu bisa akses melalui "Google Settings" yang ada di menu utama > kemudian pilih "Security" > Pastikan "Remotely locate this device" dan "Allow remote lock and erase sudah aktif.
+                Dengan menyalakan Remotely locate this device , berarti mengijinkan Google untuk melacak keberadaan perangkat Android. Sementara Allow remote lock and erase , berarti mengijinkan Google untuk mengunci dan menghapus data di dalam perangkat Android secara jarak jauh.
+                </string>
+    <string name="android3">3. Selalu Gunakan Kunci Layar</string>
+    <string name="android3.1">Hal yang sepele ini ternyata berdampak besar pada keamanan kamu dalam menggunakan smartphone Android. Dengan menggunakan kunci layar baik itu password, PIN, pola, atau pembaca sidik jari. Tentunya pencuri tak dapat berbuat banyak, satu-satunya jalan adalah harus melakukan factory reset.
+                Tenang saja, ponsel dengan OS Android 5.0 Lollipop atau yang lebih baru sudah dilengkapi dengan fitur Factory Reset Protection. Jadi, ketika pencuri melakukan factory reset melalui menu recovery, Smartphone tidak akan dapat digunakan sebelum memverifikasi ulang kepemilikan dengan akun Google yang sebelumnya digunakan pada smartphone.
+                </string>
+    <string name="android4">4. Pastikan GPS dan Izin untuk Mengakses Lokasi Diberikan</string>
+    <string name="android4.1">OS Android sudah dilengkapi dengan perizinan aplikasi individual, dimana kamu bisa memperbolehkan atau tidak izin yang diminta aplikasi. Untuk alasan menghemat daya, kadang kita dengan sengaja mematikan fungsi penting seperti GPS, sinkronisasi, bahkan data internet. Lalu apa gunanya smartphone canggih jika fungsinya sendiri dibatasi? Jadi, pastikan GPS kamu selalu aktif. Untuk mengaktifkan GPS bisa melalui Quick settings atau melalui menu pengaturan.</string>
+    <string name="android5">5. Persyaratan Lain yang Dibutuhkan</string>
+    <string name="android5.1">Agar Android Device Manager dapat digunakan secara maksimal, smartphone Android kamu harus memenuhi persyarakat berikut ini.</string>
+    <string name="android5.2">•	Perangkat aktif dan sudah login dengan akun Google
+            •	Perangkat Android harus terhubung dengan internet, jadi pastikan kamu tidak menonaktifkan data
+            •	GPS nyala dan izin untuk mengakses lokasi diberikan
+            •	Mengizinkan ADM untuk mencari perangkat (aktif secara default)
+            •	Mengizinkan ADM untuk mengunci perangkat dan menghapus data (nonaktifkan secara default, jadi pastikan kamu sudah mengaktifkannya)
+            </string>
+    <string name="android6">6. Cara Melacak Smartphone yang Hilang dengan Android Device Manager</string>
+    <string name="android6.1">Untuk melacak smartphone Android yang hilang, bisa melalui browser baik di komputer laptop, PC, dan smartphone atau melalui aplikasi Android Device Manager. Untuk opsi browser kunjungi: https://www.google.com/android/devicemanager. Selanjutnya masuk dengan akun Google yang sama digunakan pada smartphone Android.
+                Website ADM akan melacak lokasi keberadaan ponsel Android, lengkap dengan peta beserta nama lokasi, beserta info kapan terakhir digunakan dan perkiraan akurasi letaknya. Kamu bisa memperbesar peta untuk memastikan keberadaan Android tersebut.
+                </string>
+    <string name="android7">7. Fitur-fitur Android Device Manager</string>
+    <string name="android7.1">Nah kamu dapat memilih smartphone Android yang ingin kamu lacak, jika kamu memiliki lebih dari satu smartphone Android yang menggunakan akun Google yang sama. Selanjutnya kamu bisa melacak lokasi smartphone Android yang hilang. Ada tiga pilihan yang dapat kamu lakukan pada smartphone yang hilang, yakni ring, lock, dan erase.</string>
+    <string name="android8">8. Jangan Gegabah Mencari Smartphone yang Hilang Sendirian</string>
+    <string name="android8.1">Kebetulan Jaka pernah kehilangan smartphone dan langsung mencoba melacak, berbagai upaya dilakukan meski itu cukup berbahaya. Jadi, ada baiknya kamu tidak gegabah mencari sendirian. Setidaknya bawalah teman atau polisi kalau bisa. Pada akhirnya, Jaka harus ikhlas dan melakukan erase untuk menghapus seluruh data yang ada pada smartphone, serta tidak lupa memblokir nomor telepon untuk mencegah penyalahgunaan.</string>
+
+    //chromixium os
+    <string name="chrome">Cara Menginstall Chromixium OS </string>
+    <string name="chromedefinisi">Chromixium OS adalah sistem operasi Open Source gratis, modern, menarik, dan sangat fungionalitas untuk laptop, notebook, dan komputer desktop. Chromixium OS menggabungkan kesederhanaan dari Chromebook (Chrome OS) dengan fleksibilitas dan stabilitas rilis Ubuntu LTS.Seperti biasa, sistem operasi ini bisa dual boot dengan sistem operasi lainnya.</string>
+    <string name="chrome1">1. Siapkan DVD/USB sebagai bootablenya. Untuk membuat bootable menggunakan USB </string>
+    <string name="chrome2">2. Atur booting dari BIOS, atur sehingga DVD/USB yang digunakan pada urutan pertama.</string>
+    <string name="chrome3">3. Setelah itu kita akan masuk ke menu pertama dari bootable Chromixium OS. Pilih Start Chromixium, enter.</string>
+    <string name="chrome4">4. Kita akan masuk ke desktop Chromixium OS, di sini kita bisa langsung mencoba – coba fitur yang ada di Chromixium OS.
+                    Untuk menginstall klik Icon Install di taksbar.</string>
+    <string name="chrome5">5. Ketika muncul jendela credit, klik I agree.</string>
+    <string name="chrome6">6. Pilih bahasa, untuk bahasa sesuai keinginan kita, Continue.</string>
+    <string name="chrome7">7. Persiapan Install, jangan lupa ceklist Install this third-party software, Continue.</string>
+    <string name="chrome8">8. Pilih tipe instalasi, disini kita pilih Something else, agar kita bisa menyesuaikan sendiri partisinya, Continue</string>
+    <string name="chrome9">9. Sudah masuk ke bagian partisi, karena harddisk yang digunakan belum dibuat partisi sama sekali, kita klik New Partition Table…
+                    Jika ada pertanyaan, klik saja Continue.</string>
+    <string name="chrome10">10. Pilih yang diinginkan, klik icon “+”. Lalu kita buat partisi untuk swap, untuk partisi swap direkomendasikan sebesar 2x RAM, misal RAM yang digunakan 512MB maka ukuran untuk swap 1024MB. Kalau sudah Ok.</string>
+    <string name="chrome11">11. Selanjutnya pilih space yang kosong, klik icon “+” lagi. Sekarang kita buat untuk “/”. Filesystem yang digunakan Ext4 dan mount point /. Kalau sudah Ok.</string>
+    <string name="chrome12">12. Kalau sudah dibuat partisi, selanjutnya klik Install Now.</string>
+    <string name="chrome13">13. Akan muncul jendela pertanyaan, klik Continue.</string>
+    <string name="chrome14">14. Pilih lokasi, Klik saja daerah pada peta. Klik Continue.</string>
+    <string name="chrome15">15. Pilih tipe keyboard, English (US). Klik Continue.</string>
+    <string name="chrome16">16. Isi Nama Anda, Nama komputer, username dan password. Klik Continue.</string>
+    <string name="chrome17">17. Proses instalasi sedang berjalan.</string>
+    <string name="chrome18">18. Setelah semua proses selesai, Restart Komputer.</string>
+    <string name="chrome19">Sekarang kita sudah menginstall Chromixium OS di komputer. Kalau ingin menggunakan aplikasi yang biasa digunakan di Ubuntu, di sini bisa digunakan, tinggal install seperti biasa, karena pada dasarnya ini adalah distro ubuntu. Klik kanan pada desktop untuk melihat semua aplikasi yang terinstall.</string>
+
+    //ibm
+    <string name="ibmsjudul">Cara Install IBM SPSS Statistics 20</string>
+    <string name="ibms1">1. PC/Laptop harus sudah terinstall winrar.seperti gambar di bawah ini:</string>
+    <string name="ibms2">2. Buka Folder lalu tandai semua arcive yg berbentuk winrar lalu klik kanan trus extrac.sama seperti langkah pertamalihat gamabar</string>
+    <string name="ibms3">3. Buka Folder hasil extrac td terus cari folder setup.trus cari file setup.exe.lihat gambar</string>
+    <string name="ibms4">4. Klik 2 kali pada file exe nya maka akan muncul seperti gambar di bawah ini</string>
+    <string name="ibms5">5. Lalu klik next terus sampai kluar gambar seperti gambar di bawah ini</string>
+    <string name="ibms6">6. kasih tanda pada I accept lalu kilk next, dan seterusnya sampai terlihat seperti gambar di bawah ini</string>
+    <string name="ibms7">7. tunggu instalasi selesai, dan setelah muncul gambar seperti ini</string>
+    <string name="ibms7.1">hilangkan tanda centang seperti pada gambar di atas</string>
+    <string name="ibms8">8. Lalu pilih/kasih tanda pada tulisan License my product now, seperti terlihat pada gambar di bawah ini</string>
+    <string name="ibms9">9. Lalu masukan serial yg terdapat pada folder extrac kanya td, pada folder EQX . lalu buka folder tersebut, klik 2x pada Readme.lihat gambar di bawah ini.</string>
+    <string name="ibms9.1">lalu kopi serial yg terdapat pada readme td trus paste di kolom enter code.</string>
+    <string name="ibms10">10. lalu klik next</string>
+    <string name="ibms11">11. klik OK</string>
+    <string name="ibms12">12. Selesai sudah</string>
+
+    //unix
+    <string name="unixjudul">Instalasi Unix FreeBSD 9.0</string>
+    <string name="unixisi">FreBSD terkenal dengan OS open source yang sangat stabil dan aman, banyak sekali server-server di dunia yang menggunakan FreeBSD.Banyak cara yang dapat digunakan dalam melakukan instalasi FreeBSD, baik melalui berbagai macam media seperti CDROM, Floppy Disk, partisi Dos dan QIC/SCSI Tape, maupun melalui koneksi jaringan seperti FTP dan NFS. Akan tetapi yang akan saya bahas di sini hanyalah proses instalasi yang paling mudah dan sering digunakan, yaitu melalui CDROM. </string>
+    <string name="unixlangkah1">Langkah pertama adalah dengan melakukan boot ulang komputer dengan terlebih dahulu memasukkan CD FreeBSD dan memposisikan bios untuk booting lewat CDROM. Tampilan tahap pertama instalasi ditunjukkan seperti gambar 1 di bawah ini.</string>
+    <string name="unix1">1. Menu Utama Instalasi FreeBSD 9.0</string>
+    <string name="unix1.1">Pada menu utama instalasi FreeBSD kita cukup menuggu Autoboot selama 10 detik dan kemudian secara otomatis akan masuk ke pilihan instalasi seperti yang terlihat dalam gambar 2 berikut ini.</string>
+    <string name="unix2">2. Install Untuk Melanjutkan</string>
+    <string name="unix2.1">Dalam gambar 2 di atas ada tiga pilihan yang diberikan oleh sistem. Namun untuk melanjutkan instalasi, kita cukup memilih menu install. Kemudian sistem akan menanyakan tentang pengaturan keyboard apakah akan menggunakan pengaturan keyboard secara default atau akan diatur lain sesuai keinginan user, di sini saya memilih NO untuk memilih pengaturan keyboard secara default saja. Pengaturan keyboard ini dapat dilihat dalam gambar 3.</string>
+    <string name="unix3">3. Pengaturan Keyboard</string>
+    <string name="unix3.1">Setelah pemilihan pengaturan keyboard selesai, maka langkah selanjutnya adalah hostname, saya memberi hostname dengan “mandiri”</string>
+    <string name="unix4">4. Mengisi HostName</string>
+    <string name="unix4.1">Kemudian kita dihadapkan dengan pemilihan paket-paket apa saja yang akan kita install seperti pada gambar 5. Dalam tampilan tersebut terlihat ada 4 komponen yang dapat kita pilih untuk instalasi FreeBSD. jika kita memilih doc maka sistem akan memasukkan dokumen-dokumen tentang FreeBSD, jika kita memilih game maka hasil instalasi akan terisi beberapa game versi FreeBSD, ports berisi paket-paket software yang dapat kita install kembali setelah instalasi FreeBSD selesai, yang terkhir src merupakan source code FreeBSD sehingga jika kita menginstall paket ini kita dapat memodifikasi beberapa kode pemrograman yang ada dalam FreeBSD. Namun Pada tahapan ini saya hanya memilih 2 paket komponen saja yaitu ports dansrc, karena yang saya butuhkan untuk instalasi server ini cukup 2 komponen tersebut, dengan begitu server tidak terlalu terbeban dengan pemakaian kapasitas hardisk yang terlalu besar.</string>
+    <string name="unix5">5. Pemilihan Komponen FreeBSD</string>
+    <string name="unix5.1">Untuk langkah selanjutnya kita akan menentukan partisi, FreeBSD akan memandu pengaturan partisi jika kita memilih guided. Maka saya juga memilih guided agar tidak terjadi kesalahan pada saat pengaturan partisi. Penentuan partisi dapat dilihat pada gambar 6 di bawah.</string>
+    <string name="unix6">6. Pemanduan Pembagian Partisi</string>
+    <string name="unix6.1">Kemudian FreeBSD juga memberi pilihan apakah akan menggunakan seluruh kapasitas hardisk untuk FreeBSD ataupun akan membagi partisi hardisk untuk data atau sistem operasi yang lain. saya memilih Entire Disk untuk mengambil semua kapasitas hardisk untuk FreeBSD. Hal ini dapat kita lihat dalam gambar 7 dibawah ini</string>
+    <string name="unix7">7. Penggunaan Partisi</string>
+    <string name="unix7.1">Pada gambar 8 dibawah terlihat partisi yang telah dibagi otomatis oleh sistem, kita cukup melanjutkan dengan memilih tombol finish.</string>
+    <string name="unix8">8. Tampilan Pembagian Partisi</string>
+    <string name="unix8.1">Pilih Commit untuk persetujuan instalasi jika semua pengaturannya tidak ada lagi yang keliru. Setelah kita meilih Commit maka akan tampil proses instalasinya seperti yang ditunjukkan pada gambar 10 dan gambar 11.</string>
+    <string name="unix9">9. Commit untuk persetujuan</string>
+    <string name="unix10">10  Proses Instalasi</string>
+    <string name="unix11">11. Proses Instalasi</string>
+    <string name="unix11.1">Berikutnya adalah tahapan konfigurasi dasar FreeBSD yang dimulai dengan pemberian password sebagai pengamanan user. User saat ini adalah root yaitu user administrator yang akan kita berikan password. Tahapan ini ada dalam gambar 12 dibawah.</string>
+    <string name="unix12">12. Pemberian Password Root</string>
+    <string name="unix12.1">Selanjutnya adalah konfigurasi ethernet, kita dapat memilih sesuai dengan ethernet yang kita gunakan pada komputer kita.</string>
+    <string name="unix13">13. Konfigurasi Ethernet</string>
+    <string name="unix13.1">Setelah konfigurasi ethernet selesai, kemudian kita dapat mengkonfigurasi IPv4 sekaligus memasukkan IP sesuai kebutuhan kita seperti terlhat dalam gambar 14, 15 dan 16.</string>
+    <string name="unix14">14. Konfigurasi IPv4</string>
+    <string name="unix15">15. Setting DHCP</string>
+    <string name="unix16">16. Konfigurasi IP</string>
+    <string name="unix16.1">Kemudian konfigurasi waktu sesuai dengan daerah tempat tinggal kita.</string>
+    <string name="unix17">17. Pengaturan Waktu</string>
+    <string name="unix17.1">Tahap selanjutnya saya melakukan konfigurasi sevices, saya memilih sshd dan ntpd saja sesuai keperluan  seperti yang ditunjukkan dalam gambar 18 berikut ini.</string>
+    <string name="unix18">18. Konfigurasi Service</string>
+    <string name="unix18.1">Setelah konfigurasi service, kemudian jika menambah user kita dapat memilih Yes pada menu penambahan user yang terlihat dalam gambar 19 dibawah ini. Namun saya memilih No karena tidak ingin melakukan penambahan user.</string>
+    <string name="unix19">19. Penambahan User</string>
+    <string name="unix19.1">Langkah terkhir dari instalasi OS FreeBSD ini adalah melakukan reboot ulang agar kita dapat menggunakannya sesuai kebutuhan seperti server layanan yang akan saya bangun ini. Untuk melakukan reboot dapat kita lihat dalam gambar 20 dan 21 berikut ini.</string>
+    <string name="unix20">20 Exit untuk Reboot Sistem</string>
+    <string name="unix21">21. Proses Reboot</string>
+    <string name="unix21.1">Pada gambar 22 terlihat tampilan awal FreeBSD yang telah diinstal dan gambar 23 adalah menu awal setelah user melakukan login dengan benar.</string>
+    <string name="unix22">22. Tampilan Awal FreeBSD Setelah Berhasil Diinstal</string>
+    <string name="unix23">23. Tampilan Awal setelah Login</string>
+    <string name="unix24">Ok sampai di sini kita telah berhasil menginstal FreeBSD....</string>
+</resources>
+
